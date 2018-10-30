@@ -1,0 +1,20 @@
+# vim: ts=2 sw=2 et
+version: '3.6'
+
+services:
+  git-monitor:
+    build: ./
+    image: git-monitor
+    network_mode: host
+    volumes:
+      - cron-data:/home/cron/volume:ro
+
+volumes:
+  cron-data:
+    driver_opts:
+      type: none
+      device: ${CRON_DATA}
+      o: bind
+
+networks:
+  komodo:

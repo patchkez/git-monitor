@@ -1,0 +1,5 @@
+- remote_repo: https://github.com/jl777/SuperNET
+  remote_branch: dev
+
+- remote_repo: https://github.com/jl777/komodo
+  remote_branch: dev

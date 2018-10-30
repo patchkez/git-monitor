@@ -1,0 +1,15 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	//
+configcheck	git-monitor.py	/^def configcheck(config):$/;"	f
+consolidate	recharge.py	/^def consolidate(url, rpcauth):$/;"	f
+count_unspent	recharge.py	/^def count_unspent(url, rpcauth, amount):$/;"	f
+get_coin_rpc	recharge.py	/^def get_coin_rpc(coin, config):$/;"	f
+git_monitor_config	git-monitor.py	/^git_monitor_config = "~\/volume\/git-monitor.yaml"$/;"	v
+main	recharge.py	/^def main():$/;"	f
+post_rpc	recharge.py	/^def post_rpc(url, payload, **kwargs):$/;"	f
+splitfunds	recharge.py	/^def splitfunds(coin, utxo_size, number_needed, url):$/;"	f
+yaml	git-monitor.py	/^yaml = YAML(typ='safe')   # default, if not specfied, is 'rt' (round-trip)$/;"	v
